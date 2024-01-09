@@ -1,4 +1,7 @@
 <div>Hi {{ title }},
-This project is working file
+<p>This project is working file and this project has {{ numberone + numbertwo}} files</p>
+{{togglestate ? "Working fine" : "Not working fine" }}
+<br>
+<img [src]="imgsrc" height="100" width="200">
 </div>
 <router-outlet></router-outlet>
