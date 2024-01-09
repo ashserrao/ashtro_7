@@ -5,11 +5,11 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    // AppComponent
   ],
   imports: [
     BrowserModule,
-    // AppComponent,
+    AppComponent,
     RouterModule, // Include RouterModule
     // Add other modules here
   ],
