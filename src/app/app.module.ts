@@ -9,10 +9,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    // AppComponent,
     RouterModule, // Include RouterModule
     // Add other modules here
   ],
-  bootstrap: [],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
