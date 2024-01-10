@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { app } from '../../server';
 
 @Component({
@@ -15,6 +17,7 @@ export class AppComponent {
   numberone: number = 1;
   numbertwo: number = 2;
   togglestate: boolean = true;
+  favoriteAnimal:string = "Lion";
   imgsrc: string = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
 
   constructor(){
