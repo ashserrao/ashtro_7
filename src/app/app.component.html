@@ -1,8 +1,14 @@
-<nav class='navbar navbar-expand navbar-light bg-light'>
-    <ul>
-        <li><a>Home</a></li>
+<nav class="navbar">
+    <div class="logo">
+      <a href="#">YourLogo</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
-</nav>
+  </nav>
 <div>Hi {{ title }},
 <p>This project is working file and this project has {{ numberone + numbertwo}} files</p>
 {{togglestate ? "Working fine" : "Not working fine" }}
